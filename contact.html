@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact | AITL</title>
+    <meta
+      name="description"
+      content="Discuss a software project with AITL. Share a few details and prepare an email draft to the team."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact | AITL" />
+    <meta
+      property="og:description"
+      content="Discuss a software project with AITL. Share a few details and prepare an email draft to the team."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header>
+      <div class="container header-bar">
+        <a class="logo" href="index.html" aria-label="AITL, Advanced Intelligent Technology: home">
+          AITL
+          <small>Advanced Intelligent Technology Ltd</small>
+        </a>
+        <button class="menu-button" aria-expanded="false" aria-controls="nav">Menu</button>
+        <nav id="nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Our Work</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+            <li><a class="btn" href="contact.html">Discuss a Project</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <h1>Discuss a Project</h1>
+          <p>Share a few details about what you want to build or connect.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container two-columns">
+          <div>
+            <h3>How it works</h3>
+            <p class="lead">This form prepares an email draft in your own email app. Nothing is sent or stored by this website.</p>
+            <h3>What to include</h3>
+            <ul class="check-list">
+              <li>Your organisation</li>
+              <li>The problem you want to solve</li>
+              <li>Your timeline</li>
+              <li>Any systems the solution must connect to</li>
+            </ul>
+            <p class="card">
+              <strong>Note.</strong>
+              Please do not send sensitive personal, health or confidential documents through this form.
+            </p>
+            <p class="card">
+              <strong>Contact details.</strong>
+              aitl123@gmail.com
+            </p>
+          </div>
+          <form id="enquiry-form" novalidate>
+            <label for="name">Your name *</label>
+            <input id="name" name="name" autocomplete="name" required aria-describedby="name-error" />
+            <p class="error-text" id="name-error"></p>
+            <label for="email">Your email *</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" />
+            <p class="error-text" id="email-error"></p>
+            <label for="org">Organisation</label>
+            <input id="org" name="org" autocomplete="organization" />
+            <label for="topic">Area of interest</label>
+            <select id="topic" name="topic">
+              <option>Custom software</option>
+              <option>ERP / MIS / HRM</option>
+              <option>AI and data</option>
+              <option>Government and infrastructure</option>
+              <option>Telecom and ISP</option>
+              <option>Healthcare systems</option>
+              <option>Cloud and DevOps</option>
+              <option>Website</option>
+              <option>Other</option>
+            </select>
+            <label for="message">Project details *</label>
+            <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+            <p class="error-text" id="message-error"></p>
+            <p><button class="btn" type="submit" value="mail">Open email draft</button></p>
+            <p id="form-note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <strong>AITL</strong>
+          <p>
+            Advanced Intelligent Technology, Bangladesh. Custom software, enterprise systems and
+            intelligent technology solutions.
+          </p>
+        </div>
+        <nav aria-label="Company">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Our Work</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Services">
+          <ul>
+            <li><a href="services.html#software-development">Software Engineering</a></li>
+            <li><a href="services.html#telecom">Telecom and ISP</a></li>
+            <li><a href="services.html#healthcare">Healthcare Systems</a></li>
+            <li><a href="services.html#web-development">Website and Digital Development</a></li>
+          </ul>
+        </nav>
+        <div>
+          <p>
+            aitl123gmail.com
+            <br>
+            01793736278
+            <br>
+            AITL LTD  
+          </p>
+        </div>
+      </div>
+      <div class="container copyright">
+        Advanced Intelligent Technology Ltd.</div>
+    </footer>
+  </body>
+</html>
